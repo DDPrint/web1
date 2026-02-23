@@ -1,0 +1,49 @@
+  * {margin-top: 0; margin: 0;}
+body {
+    background-color: #008628;
+}
+
+/*-----Scroll-----*/
+.scroll-container {
+  /*background-color: #ffffff;*/
+  overflow: auto;
+  white-space: nowrap;
+  padding: 0px;}
+.sco_d1 {float: left;}
+
+/*-----Scroll-----*/
+  .gallery {
+    margin-bottom: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;}
+ .gallery a {
+    display: block;
+    margin: 10px;}
+ .gallery img{
+   padding: 0 0.1vw;
+    border-radius: 2vw;
+    height: auto;
+    width: 30%;}
+ .lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;}
+ .lightbox img {
+    max-width: 100%;
+    max-height: 100%;}
+ .close {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    font-size: 20px;
+    background-color: white 0.5;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;}  
